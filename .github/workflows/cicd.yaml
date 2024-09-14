@@ -18,4 +18,4 @@ jobs:
           script: |
             cd /var/www/elbek_cicd
             git pull 
-            systemctl restart elbek_cicd.service
+            systemctl restart elbek_service.service
